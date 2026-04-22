@@ -9,8 +9,8 @@ import { CreditCardPage } from "../pages/CreditCardPage";
 //test.json contains all the static values as key value pairs
 import Data from "../test.json";
 
-test.describe("Sharelane Tests", () => {
-
+test.describe("Sharelane Tests @smoke", () => {
+    
     // This before each is going to open the sharelane website
     // and also click the ENTER link.
     test.beforeEach(async ({ page }) => {
